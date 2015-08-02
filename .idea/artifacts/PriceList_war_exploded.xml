@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PriceList:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PriceList_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="PriceList/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PriceList" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.h2database:h2:1.4.187" />
+          <element id="library" level="project" name="JPA 2.0-2.0" />
+          <element id="library" level="project" name="jstl:jstl:1.2" />
+          <element id="library" level="project" name="org.hibernate:hibernate-entitymanager:4.3.10.Final" />
+          <element id="library" level="project" name="slf4j-api-1.7.12" />
+          <element id="library" level="project" name="slf4j-simple-1.7.12" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

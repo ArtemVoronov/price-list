@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="PriceList">
+    <output-path>$PROJECT_DIR$/out/artifacts/PriceList</output-path>
+    <root id="archive" name="PriceList.war">
+      <element id="artifact" artifact-name="PriceList:war exploded" />
+    </root>
+  </artifact>
+</component>
